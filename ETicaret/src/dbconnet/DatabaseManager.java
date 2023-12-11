@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class DatabaseManager {
     private static final String JDBC_URL = "jdbc:mysql://localhost:3306/ticaret";
     private static final String USERNAME = "root";
-    private static final String PASSWORD = "";
+    private static final String PASSWORD = "root";
 
     public static Connection connect() {
         try {
